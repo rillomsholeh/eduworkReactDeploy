@@ -1,11 +1,17 @@
 import React from "react";
 
-function App() {
+// import component Header
+import Header from "./Task/components/header";
+
+function Component() {
   return (
-    <div className="App">
-      <h3>Nama Saya Muhammad Sholeh</h3>
-      <h4>Ini Halaman Pertama ReactJS</h4>
+    //   Code Here
+    <div>
+      <Header />
     </div>
-  )
+  );
 }
-export default App;
+
+// Create a new component here
+
+export default Component;
